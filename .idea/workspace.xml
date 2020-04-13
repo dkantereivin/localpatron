@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="1a5fd151-4af6-4c52-874c-15f470ab5206" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/david.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/localpatron.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/watcherTasks.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/Logo.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/fonts/Gilroy-Regular.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/navbar.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/navbar.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/index.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/about/About-ManPetting.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/about/about-style.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/about/about.page.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/contact/Contact-Jumping.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/contact/contact-style.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/contact/contact.page.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/favicon.ico" beforeDir="false" afterPath="$PROJECT_DIR$/public/favicon.ico" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/public/manifest.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.test.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/logo.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/setupTests.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="TypeScript JSX File" />
+        <option value="SCSS File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="SIGN_OFF_COMMIT" value="true" />
+  </component>
+  <component name="ProjectId" id="1aSb0szYjl7an6EkLFsoG0GcMtr" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/pages/contact" />
+    <property name="list.type.of.created.stylesheet" value="SCSS" />
+    <property name="ts.external.directory.path" value="C:\Users\david\OneDrive\Documents\LocalPatron\localpatron\node_modules\typescript\lib" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\david\OneDrive\Documents\LocalPatron\localpatron\src\pages\contact" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\david\OneDrive\Documents\LocalPatron\localpatron\src" />
+    </key>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="1a5fd151-4af6-4c52-874c-15f470ab5206" name="Default Changelist" comment="" />
+      <created>1586731947092</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1586731947092</updated>
+      <workItem from="1586731948891" duration="1873000" />
+      <workItem from="1586733842105" duration="19089000" />
+      <workItem from="1586785556913" duration="6360000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="233" y="0" key="#SCSS" timestamp="1586733062914">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="233" y="0" key="#SCSS/0.0.1280.680@0.0.1280.680" timestamp="1586733062914" />
+    <state x="233" y="0" key="#TypeScript" timestamp="1586732854462">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="233" y="0" key="#TypeScript/0.0.1280.680@0.0.1280.680" timestamp="1586732854462" />
+    <state x="244" y="0" key="CommitChangelistDialog2" timestamp="1586805761193">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="244" y="0" key="CommitChangelistDialog2/0.0.1280.680@0.0.1280.680" timestamp="1586805761193" />
+    <state x="278" y="123" key="EditFileWatcherDialog" timestamp="1586732886831">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="278" y="123" key="EditFileWatcherDialog/0.0.1280.680@0.0.1280.680" timestamp="1586732886831" />
+    <state x="297" y="151" key="run.anything.popup" timestamp="1586759641206">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="297" y="151" key="run.anything.popup/0.0.1280.680@0.0.1280.680" timestamp="1586759641206" />
+  </component>
+</project>

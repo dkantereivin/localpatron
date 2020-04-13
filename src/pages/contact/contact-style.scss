@@ -1,0 +1,90 @@
+$serif-fallback: 'Roboto Light', Arial, sans-serif;
+
+.contact-container {
+    display: flex;
+
+    .column-left {
+        display: flex;
+        box-sizing: border-box;
+        flex-direction: column;
+        justify-content: flex-start;
+        padding-left: 6vw;
+        margin-right: 6vw;
+        padding-top: 4vh;
+        flex: 0.4;
+
+        h1 {
+            font-family: Gilroy, $serif-fallback;
+            margin-bottom: 0.2vh;
+        }
+
+        h2 {
+            font-family: 'Montserrat ExtraLight', $serif-fallback;
+            margin-top: 0;
+            font-weight: normal;
+        }
+
+        #contact {
+            text-decoration: none;
+            color: inherit;
+            font-weight: bolder;
+        }
+
+        p {
+            width: 70%;
+            font-family: 'Segoe UI', 'Roboto Light', sans-serif;
+        }
+
+        .contact-form {
+            input {
+                display: block;
+                height: 3.5vh;
+                margin-bottom: 5px;
+                        //border-color: #979797;
+                        //border-width: 1px;
+                width: 85%;
+            }
+
+            #msg {
+                height: 20vh;
+            }
+        }
+    }
+
+    .column-right {
+        flex: 0.6;
+        padding-top: 10vh;
+
+        .content-image {
+            width: auto;
+            height: auto;
+            max-height: 100%;
+        }
+    }
+
+    @media screen and (max-width: 900px) {
+        .container {
+            flex-direction: column-reverse;
+        }
+        .column-left {
+            padding-left: 0;
+            align-items: center;
+
+            p {
+                text-align: justify;
+                width: 90%;
+            }
+        }
+        .column-right {
+            margin-left: 6vw;
+        }
+    }
+    @media screen and (max-width: 400px) {
+        .container {
+            flex-direction: row;
+        }
+        .column-right {
+            flex: 0;
+        }
+    }
+}

@@ -1,0 +1,59 @@
+.about-container {
+    display: flex;
+
+    .column-left {
+        display: flex;
+        flex-direction: column;
+        padding-left: 6vw;
+        padding-top: 4vh;
+        flex: 1;
+
+        h1 {
+            font-family: Gilroy, 'Roboto Light', sans-serif;
+        }
+
+        p {
+            width: 80%;
+            font-family: 'Segoe UI', 'Roboto Light', sans-serif;
+        }
+    }
+
+    .column-right {
+        display: flex;
+        flex: 1;
+        padding-top: 10vh;
+
+        .content-image {
+            width: 100%;
+            height: auto;
+        }
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .about-container {
+        flex-direction: column-reverse;
+
+        .column-left {
+            padding-left: 0;
+            align-items: center;
+            p {
+                text-align: justify;
+                width: 90%;
+            }
+        }
+        .column-right {
+            margin-left: 6vw;
+        }
+    }
+
+}
+@media screen and (max-width: 400px) {
+    .about-container {
+        flex-direction: row;
+
+        .column-right {
+            flex: 0;
+        }
+    }
+}

@@ -1,0 +1,73 @@
+$Gilroy-Font: Gilroy, Roboto, Arial, sans-serif;
+
+header {
+    position: fixed;
+    width: 100%;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    height: 9vh;
+    padding: 0 6vw 0 6vw;
+    box-shadow: 0 0 5px #d3d3d3;
+    background-color: white;
+
+    %reg-link {
+        color: #37383E;
+        font-family: $Gilroy-Font;
+        text-decoration: none;
+        font-size: 14px;
+    }
+
+    %rounded-button {
+        padding: 1.2vh 1.2vw 1.2vh 1.2vw;
+        border-radius: 7px;
+        margin: 1vw;
+    }
+
+    .logo {
+        max-width: 20vw;
+        height: 6vh;
+        margin: 1.8vh 0 1.2vh 0;
+    }
+
+    .tabs {
+        margin-left: 1vw;
+        padding-bottom: 3vh;
+        display: flex;
+        flex: 0.45;
+        justify-content: space-evenly;
+        align-items: flex-end;
+
+        .tab-link {
+            @extend %reg-link;
+        }
+    }
+
+    .special-buttons {
+        display: flex;
+        justify-content: flex-end;
+        align-items: flex-start;
+        flex: 0.55;
+
+        .donate {
+            @extend %reg-link;
+            @extend %rounded-button;
+            border: 1px solid #525252;
+        }
+        .business-dashboard {
+            @extend %reg-link;
+            @extend %rounded-button;
+            padding-left: 1vw;
+            padding-right: 1vw;
+            color: white;
+            background-color: #FF9354;
+        }
+
+        .login-logout {
+            @extend %reg-link;
+            @extend %rounded-button;
+            color: #979797;
+            box-shadow: 0 0 5px #d3d3d3;
+        }
+    }
+}
