@@ -3,6 +3,7 @@ import {BrowserRouter, Switch, Route} from 'react-router-dom';
 import Navbar from './components/navbar';
 import About from './pages/about/about.page';
 import Contact from './pages/contact/contact.page';
+import Login from './pages/login/login.page';
 import './App.scss';
 
 
@@ -24,6 +25,9 @@ class App extends React.PureComponent
                             </Route>
                             <Route path='/contact'>
                                 <Contact />
+                            </Route>
+                            <Route path='/login'>
+                                <Login />
                             </Route>
                         </Switch>
                     {/*</div>*/}

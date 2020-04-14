@@ -9,7 +9,7 @@ export default class About extends React.PureComponent
         return (
             <div className='about-container'>
                 <div className='column-left'>
-                    <h1>About Us</h1>
+                    <h1>Who are we?</h1>
                     <p>
                         We are a designer-developer duo from Toronto. Growing up as the kids of small business owners, we know how hard running a business is. Every customer, every sale and every dollar counts. Events like this make an already tough job almost impossible. As native Torontonians, we also know that local businesses are what make Toronto such an amazing place to live in. We knew that we had to do something to help.
                     </p>

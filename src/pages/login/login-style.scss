@@ -1,6 +1,6 @@
 $serif-fallback: 'Roboto Light', Arial, sans-serif;
 
-.contact-container {
+.login-container {
     display: flex;
 
     .column-left {
@@ -11,52 +11,38 @@ $serif-fallback: 'Roboto Light', Arial, sans-serif;
         padding-left: 6vw;
         margin-right: 6vw;
         padding-top: 4vh;
-        flex: 0.4;
+        flex: 0.5;
 
         h1 {
             font-family: Gilroy, $serif-fallback;
             margin-bottom: 0.2vh;
+            width: 100%;
         }
-
 
         h2 {
-            font-family: 'Montserrat ExtraLight', $serif-fallback;
-            margin-top: 0;
-            font-weight: normal;
-        }
-
-        h3 {
             font-family: 'Segoe UI', 'Roboto Light', sans-serif;
             font-weight: normal;
             margin-top: 0.1vh;
             margin-bottom: 0.1vh;
-            width:50%;
+        
         }
 
-        #contact {
+
+        #login {
             text-decoration: none;
             color: inherit;
             font-weight: bolder;
         }
 
         p {
+            margin-bottom: 0.1vh;
+            margin-top: 0.1vh;
             width: 70%;
             font-family: 'Segoe UI', 'Roboto Light', sans-serif;
         }
 
-        .contact-form {
-            textarea{
-                font-family: 'Segoe UI', 'Roboto Light', sans-serif;
-                width: 85%; /* Full width */
-                padding: 12px; /* Some padding */ 
-                border: 1px solid #ccc; /* Gray border */
-                border-radius: 4px; /* Rounded borders */
-                box-sizing: border-box; /* Make sure that padding and width stays in place */
-                margin-top: 6px; /* Add a top margin */
-                margin-bottom: 16px; /* Bottom margin */
-                height: 15vh;
-                resize: initial;
-            }
+        .login-form {
+
             input[type=text] {
                 width: 85%; /* Full width */
                 padding: 12px; /* Some padding */ 
@@ -66,18 +52,17 @@ $serif-fallback: 'Roboto Light', Arial, sans-serif;
                 margin-top: 6px; /* Add a top margin */
                 margin-bottom: 16px; /* Bottom margin */
                 line-height: 2em;
-                resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
-            }
 
-            input[type=email]{
+            }input[type=email] {
                 width: 85%; /* Full width */
                 padding: 12px; /* Some padding */ 
                 border: 1px solid #ccc; /* Gray border */
                 border-radius: 4px; /* Rounded borders */
                 box-sizing: border-box; /* Make sure that padding and width stays in place */
                 margin-top: 6px; /* Add a top margin */
-                margin-bottom: 16px;
-                line-height: 2em; /* Bottom margin */
+                margin-bottom: 16px; /* Bottom margin */
+                line-height: 2em;
+                resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
             }
 
 
