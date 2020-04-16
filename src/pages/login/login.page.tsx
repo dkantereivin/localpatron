@@ -15,16 +15,17 @@ export default class Login extends React.PureComponent
                         </a>
                     </h2>
                     <div style={{flex: 0.2}}/>
-                    <form className='login-form' /*action = {/API/contact}*/ method = 'post'>
+                    <form className='login-form'>
                         <p>Email</p>
                         <input id='email' placeholder='Email' type='email' />
                         <p>Password</p>
                         <input id = 'password' placeholder = 'Password' type = 'text'/>
-                        <input type="submit" value="Log In"></input>
+                        <p>Forgot your password? Reset it <u>here.</u></p>
+                        <input type="submit" value="Sign in"></input>
                     </form>
                 </div>
                 <div className='column-right'>
-                    <img className='content-image' src={contentImage} alt='Man with love' width = '0.2'/>
+                    <img className='content-image' src={contentImage} alt='Man with love'/>
                 </div>
             </div>
         );
