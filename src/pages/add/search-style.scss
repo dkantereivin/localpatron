@@ -9,12 +9,13 @@ $serif-fallback: 'Roboto Light', Arial, sans-serif;
 .search-page-container {
     @extend %flex-col-center;
     padding-top: 5vh;
-
+    
     h1 {
         font-family: Gilroy, $serif-fallback;
         font-size: 3vw;
         width: 40%;
         margin-bottom: 1vh;
+        text-align: center;
     }
 
     h2 {
@@ -24,6 +25,7 @@ $serif-fallback: 'Roboto Light', Arial, sans-serif;
         font-weight: lighter;
         font-size: 1.55vw;
         width: 40%;
+        text-align: center;
     }
 
     form {
@@ -31,7 +33,7 @@ $serif-fallback: 'Roboto Light', Arial, sans-serif;
     }
 
     input  {
-        width: 60vw; /* Full width */
+        width: 50vw; /* Full width */
         padding: 1vh; /* Some padding */
         border: 1px solid #ccc; /* Gray border */
         border-radius: 4px; /* Rounded borders */

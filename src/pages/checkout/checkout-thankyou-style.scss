@@ -1,12 +1,11 @@
 .about-container {
     display: flex;
-    background-color: #F5EFE0;
 
     .column-left {
         display: flex;
         flex-direction: column;
         padding-left: 6vw;
-        padding-top: 4vh;
+        padding-top: 10vh;
         flex: 1;
 
         h1 {
@@ -18,12 +17,30 @@
             width: 80%;
             font-family: 'Segoe UI', 'Roboto Light', sans-serif;
         }
+
+        input[type=submit] {
+            background-color: #FF9354;
+            color: white;
+            padding: 12px 20px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+
+        input[type=submit]:hover {
+            background-color: rgb(194, 113, 66);
+        }
+
+        ul{
+            list-style-type: circle;
+        }
     }
 
     .column-right {
         display: flex;
         flex: 1;
         padding-top: 10vh;
+
         .content-image {
             width: 100%;
             height: auto;

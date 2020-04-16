@@ -66,9 +66,9 @@ export default class SearchPage extends React.PureComponent<SearchProps, Onboard
         this.setState({
             queryText: event.target.value
         });
-        this.setState({
+        /*this.setState({
             response: await this.getAutocompleteResults(event.target.value)
-        });
+        });*/
     }
 
     private async getAutocompleteResults(queryText: string): Promise<Result[]> {
