@@ -1,0 +1,51 @@
+$serif-fallback: 'Roboto Light', Arial, sans-serif;
+
+%flex-col-center {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.search-page-container {
+    @extend %flex-col-center;
+    padding-top: 5vh;
+
+    h1 {
+        font-family: Gilroy, $serif-fallback;
+        font-size: 3vw;
+        width: 40%;
+        margin-bottom: 1vh;
+    }
+
+    h2 {
+        margin-top: 0;
+        margin-bottom: 5vh;
+        font-family: Gilroy, $serif-fallback;
+        font-weight: lighter;
+        font-size: 1.55vw;
+        width: 40%;
+    }
+
+    form {
+        @extend %flex-col-center;
+    }
+
+    input  {
+        width: 60vw; /* Full width */
+        padding: 1vh; /* Some padding */
+        border: 1px solid #ccc; /* Gray border */
+        border-radius: 4px; /* Rounded borders */
+        box-sizing: border-box; /* Make sure that padding and width stays in place */
+        margin-top: 1vh; /* Add a top margin */
+        line-height: 5vh;
+        resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+    }
+
+    .results-div {
+        @extend %flex-col-center;
+
+        .google-logo {
+            margin-top: 2vh;
+        }
+    }
+}

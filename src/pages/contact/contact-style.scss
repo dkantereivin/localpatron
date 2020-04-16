@@ -30,7 +30,7 @@ $serif-fallback: 'Roboto Light', Arial, sans-serif;
             font-weight: normal;
             margin-top: 0.1vh;
             margin-bottom: 0.1vh;
-            width:50%;
+            width: 50%;
         }
 
         #contact {
@@ -45,10 +45,10 @@ $serif-fallback: 'Roboto Light', Arial, sans-serif;
         }
 
         .contact-form {
-            textarea{
+            textarea {
                 font-family: 'Segoe UI', 'Roboto Light', sans-serif;
                 width: 85%; /* Full width */
-                padding: 12px; /* Some padding */ 
+                padding: 12px; /* Some padding */
                 border: 1px solid #ccc; /* Gray border */
                 border-radius: 4px; /* Rounded borders */
                 box-sizing: border-box; /* Make sure that padding and width stays in place */
@@ -57,9 +57,10 @@ $serif-fallback: 'Roboto Light', Arial, sans-serif;
                 height: 15vh;
                 resize: initial;
             }
+
             input[type=text] {
                 width: 85%; /* Full width */
-                padding: 12px; /* Some padding */ 
+                padding: 12px; /* Some padding */
                 border: 1px solid #ccc; /* Gray border */
                 border-radius: 4px; /* Rounded borders */
                 box-sizing: border-box; /* Make sure that padding and width stays in place */
@@ -69,9 +70,9 @@ $serif-fallback: 'Roboto Light', Arial, sans-serif;
                 resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
             }
 
-            input[type=email]{
+            input[type=email] {
                 width: 85%; /* Full width */
-                padding: 12px; /* Some padding */ 
+                padding: 12px; /* Some padding */
                 border: 1px solid #ccc; /* Gray border */
                 border-radius: 4px; /* Rounded borders */
                 box-sizing: border-box; /* Make sure that padding and width stays in place */
@@ -110,5 +111,15 @@ $serif-fallback: 'Roboto Light', Arial, sans-serif;
             max-height: 100%;
         }
     }
+}
 
+@media screen and (max-width: 900px) {
+    .contact-container {
+        .column-left {
+            flex: 1;
+        }
+        .column-right {
+            flex: 0;
+        }
+    }
 }

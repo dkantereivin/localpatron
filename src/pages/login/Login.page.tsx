@@ -20,7 +20,7 @@ export default class Login extends React.PureComponent
                         <input id='email' placeholder='Email' type='email' />
                         <p>Password</p>
                         <input id = 'password' placeholder = 'Password' type = 'text'/>
-                        <input type="submit" value="Log In" />
+                        <input type="submit" value="Log In"></input>
                     </form>
                 </div>
                 <div className='column-right'>
