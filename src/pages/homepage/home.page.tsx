@@ -1,5 +1,5 @@
 import React from 'react';
-import contentImage from './hero.png';
+//import contentImage_1 from './hero.png';
 import './homepage-style.scss';
 
 export default class Homepage extends React.PureComponent
@@ -26,15 +26,14 @@ export default class Homepage extends React.PureComponent
                 </section>
                 <main>
                     <section className = "content">
+                        <h1>By purchasing a gift card you are ....</h1>
                         <div className="row">
                             <div className="column">
                                 <div className="card">
-                                <img src="/w3images/team1.jpg" alt="Jane"/>
+                                <img src= '' alt="Coffee"/>
                                     <div className="container">
-                                        <h2>Jane Doe</h2>
-                                        <p className="title">CEO & Founder</p>
-                                        <p>Some text that describes me lorem ipsum ipsum lorem.</p>
-                                        <p>example@example.com</p>
+                                        <h2>Keep the lights on.</h2>
+                                        <p>Your contribution will help pay for rent, employee wages and other expenditures. With Canada facing record unemployment, you are helping people keep their jobs.</p>
                                     </div>
                                 </div>
                             </div>
@@ -42,12 +41,10 @@ export default class Homepage extends React.PureComponent
                         <div className="row">
                             <div className="column">
                                 <div className="card">
-                                <img src="/w3images/team1.jpg" alt="Jane"/>
+                                <img src= '' alt="Coffee"/>
                                     <div className="container">
-                                        <h2>Jane Doe</h2>
-                                        <p className="title">CEO & Founder</p>
-                                        <p>Some text that describes me lorem ipsum ipsum lorem.</p>
-                                        <p>example@example.com</p>
+                                        <h2>Help someone in need.</h2>
+                                        <p>Aside from helping business owners, cards can also be donated to healthcare workers through this website.This way, you can show your support to frontline workers and your community.</p>
                                     </div>
                                 </div>
                             </div>
@@ -55,18 +52,17 @@ export default class Homepage extends React.PureComponent
                         <div className="row">
                             <div className="column">
                                 <div className="card">
-                                <img src="/w3images/team1.jpg" alt="Jane"/>
+                                <img src= '' alt="Coffee"/>
                                     <div className="container">
-                                        <h2>Jane Doe</h2>
-                                        <p className="title">CEO & Founder</p>
-                                        <p>Some text that describes me lorem ipsum ipsum lorem.</p>
-                                        <p>example@example.com</p>
+                                        <h2>Savour later.</h2>
+                                        <p>We'll all have something to celebrate when this is over. Be it a fresh coffee or a much needed haircut, we can all savour the things we've missed most. Cheers!</p>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </section>
                     <section className = "faq">
+                        <h1>Frequently Asked Questions</h1>
                         <button className="accordion">Section 1</button>
                         <div className="panel">
                             <p>Lorem ipsum...</p>
