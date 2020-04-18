@@ -4,6 +4,7 @@ import Navbar from './components/navbar';
 import About from './pages/about/About.page';
 import Login from './pages/login/Login.page';
 import Contact from './pages/contact/Contact.page';
+import Home from './pages/homepage/home.page';
 import './App.scss';
 import Onboarding from './pages/Onboarding.flow';
 
@@ -46,7 +47,7 @@ class App extends React.PureComponent<any, GlobalState>
                     <div style={{height: '9vh'}}/>
                         <Switch>
                             <Route exact path={['/', '/home']} >
-                                Whoa!
+                                <Home />
                             </Route>
                             <Route path='/about'>
                                 <About />

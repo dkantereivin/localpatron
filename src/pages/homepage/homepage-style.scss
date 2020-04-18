@@ -1,0 +1,157 @@
+body{
+    margin: 0;
+}
+.hero {
+    /* Sizing */
+    width: 100vw;
+    height: 100vh;
+
+    /* Flexbox stuff */
+    display: flex;
+    justify-content: left;
+    align-items: center;
+
+    text-align: left;
+
+    /* Background styles */
+    background-image: url(hero.png);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+    
+    h1 {
+        /* Text styles */
+        margin-left: 6vw;
+        margin-top: 0.5em;
+        margin-bottom: 0.5em;
+        font-family: Gilroy, 'Roboto Light', sans-serif;
+        font-size: 3em;
+        width:35%
+    }
+
+    h2 {
+        /* Text styles */
+        margin-left: 6vw;
+        font-family: 'Segoe UI', 'Roboto Light', sans-serif;
+        font-style: normal;
+        font-size: 18px;
+        width: 35%;
+    }
+
+    h3{
+        font-family: 'Segoe UI', 'Roboto Light', sans-serif;
+        margin-left: 6vw;
+        margin-bottom: 0.5em;
+    }
+
+    p {
+        width: 35%;
+        font-family: 'Segoe UI', 'Roboto Light', sans-serif;
+        margin-left: 6vw;
+        margin-top: 0.2em;
+    }
+
+    input[type=text] {
+        margin-left: 6vw;
+        width: 30%; /* Full width */
+        padding: 12px; /* Some padding */
+        border: 1px solid #ccc; /* Gray border */
+        border-radius: 4px; /* Rounded borders */
+        box-sizing: border-box; /* Make sure that padding and width stays in place */
+        margin-top: 6px; /* Add a top margin */
+        margin-bottom: 16px; /* Bottom margin */
+        line-height: 2em;
+        resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+    }
+}
+
+.faq{
+
+    .accordion {
+        background-color: #eee;
+        color: #444;
+        cursor: pointer;
+        padding: 18px;
+        width: 100%;
+        text-align: left;
+        border: none;
+        outline: none;
+        transition: 0.4s;
+        font-family:'Segoe UI', 'Roboto Light', sans-serif;
+    }
+      
+    /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+    .active, .accordion:hover {
+    background-color: #ccc;
+    }
+    
+    /* Style the accordion panel. Note: hidden by default */
+    .panel {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+    padding: 0 18px;
+    background-color: white;
+    display: none;
+    overflow: hidden;
+    }
+    
+    .accordion:after {
+    content: '\02795'; /* Unicode character for "plus" sign (+) */
+    font-size: 13px;
+    color: #777;
+    float: right;
+    margin-left: 5px;
+    }
+    
+    .active:after {
+    content: "\2796"; /* Unicode character for "minus" sign (-) */
+    }
+}
+
+/* Style the buttons that are used to open and close the accordion panel */
+
+.content{
+    /*margin-left: 6vw;
+    margin-right: 6vw;
+    align-items: center;
+    align-content: center;
+    justify-content: center;*/
+    .column {
+        float: left;
+        width: 30%;
+        margin-bottom: 16px;
+        padding: 0 8px;
+    }
+      
+    /* Display the columns below each other instead of side by side on small screens */
+    @media screen and (max-width: 650px) {
+        .column {
+            width: 100%;
+            display: block;
+        }
+    }
+
+    .card {
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    }
+    /* Some left and right padding inside the container */
+    .container {
+        padding: 0 16px;
+    }
+    
+    /* Clear floats */
+    .container::after, .row::after {
+    content: "";
+    clear: both;
+    display: table;
+    }
+    
+    .title {
+    color: grey;
+    }
+}
+
+  
