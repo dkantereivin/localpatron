@@ -2,24 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1a5fd151-4af6-4c52-874c-15f470ab5206" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Constants.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/Onboarding.flow.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/add/Google-Places-Logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/add/Search.page.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/add/TypeSelection.page.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/add/VendorDetails.page.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/add/search-style.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/add/type-selection-style.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/add/vendor-details-style.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dictionaries/david.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dictionaries/david.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/about/about.page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/about/About.page.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/contact/contact-style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/contact/contact-style.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/contact/contact.page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/contact/Contact.page.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/login/login.page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/login/Login.page.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/about/About.page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/about/About.page.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/login/Login.page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/login/Login.page.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -160,10 +146,10 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="233" y="74" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1586805883957" />
-    <state x="449" y="253" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1586996226936">
+    <state x="449" y="253" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1587185878981">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="449" y="253" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1280.680@0.0.1280.680" timestamp="1586996226936" />
+    <state x="449" y="253" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1280.680@0.0.1280.680" timestamp="1587185878981" />
     <state x="93" y="93" width="1095" height="495" key="dock-window-1" timestamp="1586919622380">
       <screen x="0" y="0" width="1280" height="680" />
     </state>

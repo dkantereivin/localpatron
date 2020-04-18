@@ -1,9 +1,9 @@
 import React from 'react';
 import {BrowserRouter, Switch, Route} from 'react-router-dom';
 import Navbar from './components/navbar';
-import About from './pages/about/About.page';
-import Login from './pages/login/Login.page';
-import Contact from './pages/contact/Contact.page';
+import About from './pages/about/about.page';
+import Login from './pages/login/login.page';
+import Contact from './pages/contact/contact.page';
 import Home from './pages/homepage/home.page';
 import './App.scss';
 import Onboarding from './pages/Onboarding.flow';
