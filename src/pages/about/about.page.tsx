@@ -17,7 +17,9 @@ export default class About extends React.PureComponent
                         Thus, Local Patron was born. Inspired by sites like Support Local, Help Main Street and Save our Faves, we decided to build a platform on which Canadians could support their local businesses by purchasing gift cards.
                     </p>
                 </div>
-                <img className='content-image' src={contentImage} alt='Swinging'/>
+                <div className='column-right'>
+                    <img className='content-image' src={contentImage} alt='Man Petting Dog'/>
+                </div>
             </div>
         );
     }
