@@ -1,0 +1,58 @@
+.content{
+    //background-color: lightpink;
+    margin-top: 5vh;
+    margin-left: 6vw;
+    text-align: left;
+    align-content: center;
+    justify-content: center;
+
+    h1{
+        font-family: Gilroy, 'Roboto Light', sans-serif;
+        font-size: 2em;
+        text-align: left;
+    }
+
+
+    .column {
+        float: left;
+        width: 50%;
+        margin-bottom: 16px;
+        padding: 1vw;
+
+        h2 {
+            /* Text styles */
+            font-family: Gilroy, 'Roboto Light', sans-serif;
+            width:100%
+        }
+
+        p {
+            width: 100%;
+            line-height: 1.5em;
+            font-family: 'Segoe UI', 'Roboto Light', sans-serif;
+            font-size: 1em;
+        }
+    }
+
+    .card {
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    }
+    // Some left and right padding inside the container */
+    .container {
+        padding: 1.5vw;
+    }
+    
+    /* Clear floats */
+    .container::after, .row::after {
+    content: "";
+    clear: none;
+    display: table;
+    }
+
+    /* Display the columns below each other instead of side by side on small screens */
+    @media screen and (max-width: 650px) {
+        .column {
+            width: 100%;
+            display: block;
+        }
+    }
+}

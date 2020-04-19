@@ -1,10 +1,11 @@
 body{
     margin: 0;
+    align-content: center;
 }
 .hero {
     /* Sizing */
-    width: 100vw;
-    height: 100vh;
+    width: 100%;
+    height: 85vh;
 
     /* Flexbox stuff */
     display: flex;
@@ -18,7 +19,7 @@ body{
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
-    background-attachment: fixed;
+    background-attachment: scroll;
 
     
     h1 {
@@ -44,21 +45,27 @@ body{
         margin-top: 0.2em;
     }
 
-    input[type=text] {
+    input[type=submit] {
+        text-align: center;
         margin-left: 6vw;
-        width: 30%; /* Full width */
-        padding: 12px; /* Some padding */
-        border: 1px solid #ccc; /* Gray border */
-        border-radius: 4px; /* Rounded borders */
-        box-sizing: border-box; /* Make sure that padding and width stays in place */
-        margin-top: 6px; /* Add a top margin */
-        margin-bottom: 16px; /* Bottom margin */
-        line-height: 2em;
-        resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+        background-color: #37383E;
+        color: white;
+        padding: 12px 20px;
+        border: none;
+        border-radius: 4px;
+        width: 12%;
+        cursor: pointer;
+    }
+
+    input[type=submit]:hover {
+        background-color: #61636d;
     }
 }
 
 .faq{
+    //background-color: lightsalmon;
+    width: 87.5%;
+    margin-left: 6vw;
 
     h1{
         font-family: Gilroy, 'Roboto Light', sans-serif;
@@ -67,54 +74,55 @@ body{
     }
 
     .accordion {
-        background-color: #eee;
+        background-color: #ffff;
+        margin-top: 1vh;
         color: #444;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
         cursor: pointer;
         padding: 18px;
         width: 100%;
         text-align: left;
         border: none;
-        outline: none;
         transition: 0.4s;
         font-family:'Segoe UI', 'Roboto Light', sans-serif;
     }
       
     /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
     .active, .accordion:hover {
-    background-color: #ccc;
+        background-color: rgb(236, 236, 236);
     }
     
     /* Style the accordion panel. Note: hidden by default */
     .panel {
-    max-height: 0;
-    overflow: hidden;
-    transition: max-height 0.2s ease-out;
-    padding: 0 18px;
-    background-color: white;
-    display: none;
-    overflow: hidden;
+        max-height: 0;
+        overflow: hidden;
+        transition: max-height 0.2s ease-out;
+        padding: 0 18px;
+        background-color: white;
+        display: none;
+        overflow: hidden;
     }
     
     .accordion:after {
-    content: '\02795'; /* Unicode character for "plus" sign (+) */
-    font-size: 13px;
-    color: #777;
-    float: right;
-    margin-left: 5px;
+        content: '\02795'; /* Unicode character for "plus" sign (+) */
+        font-size: 13px;
+        color: #777;
+        float: right;
+        margin-left: 5px;
     }
     
     .active:after {
-    content: "\2796"; /* Unicode character for "minus" sign (-) */
+        content: "\2796"; /* Unicode character for "minus" sign (-) */
     }
 }
 
 /* Style the buttons that are used to open and close the accordion panel */
 
 .content{
-    margin-top: 10vh;
+    //background-color: lightpink;
+    margin-top: 5vh;
     margin-left: 6vw;
-    text-align: center;
-    align-items: center;
+    text-align: left;
     align-content: center;
     justify-content: center;
 
@@ -129,7 +137,7 @@ body{
         float: left;
         width: 30.3%;
         margin-bottom: 16px;
-        padding: 0 8px;
+        padding: 0 0.8vh;
 
         h2 {
             /* Text styles */
@@ -145,12 +153,12 @@ body{
         }
     }
 
-    /*.card {
+    .card {
         box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     }
-    /* Some left and right padding inside the container */
+    // Some left and right padding inside the container */
     .container {
-        padding: 0 16px;
+        padding: 1.5vw;
     }
     
     /* Clear floats */
@@ -166,6 +174,56 @@ body{
             width: 100%;
             display: block;
         }
+    }
+}
+
+.thank-you{
+    display:flex;
+    width: 90%;
+    margin: auto;
+    min-height: 80vh;
+    align-content: center;
+
+    .thankyou-text{
+        flex:0.8;
+        margin: 8vw;
+        h1{
+            text-align: left;
+            font-family: Gilroy, 'Roboto Light', sans-serif;
+            margin-bottom: 0.1em;
+            width:100%
+        }
+        p{
+            width: 100%;
+            line-height: 1.5em;
+            font-family: 'Segoe UI', 'Roboto Light', sans-serif;
+            font-size: 16px;
+            margin-bottom: 2em;
+        }
+
+        input[type=submit] {
+            text-align: center;
+            background-color: lightcoral;
+            color: white;
+            padding: 12px 20px;
+            border: none;
+            border-radius: 10px;
+            width: 30%;
+            cursor: pointer;
+        }
+    
+        input[type=submit]:hover {
+            background-color:coral;
+        }
+    }
+
+    .thankyou-cover{
+        flex:1;
+    }
+    
+    .thankyou-cover img{
+        margin: 10vh;
+        height: 80%
     }
 }
 

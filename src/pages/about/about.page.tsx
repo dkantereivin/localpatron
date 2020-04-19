@@ -8,8 +8,9 @@ export default class About extends React.PureComponent
     {
         return (
             <div className='about-container'>
-                <div className='column-left'>
+                <div className='text'>
                     <h1>Who are we?</h1>
+                    <hr></hr>
                     <p>
                         We are a designer-developer duo from Toronto. Growing up as the kids of small business owners, we know how hard running a business is. Every customer, every sale and every dollar counts. Events like this make an already tough job almost impossible. As native Torontonians, we also know that local businesses are what make Toronto such an amazing place to live in. We knew that we had to do something to help.
                     </p>
@@ -17,7 +18,7 @@ export default class About extends React.PureComponent
                         Thus, Local Patron was born. Inspired by sites like Support Local, Help Main Street and Save our Faves, we decided to build a platform on which Canadians could support their local businesses by purchasing gift cards.
                     </p>
                 </div>
-                <img className='content-image' src={contentImage} alt='Swinging'/>
+                <img className='image' src={contentImage} alt='Swinging'/>
             </div>
         );
     }
