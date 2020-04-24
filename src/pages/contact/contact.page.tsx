@@ -1,6 +1,6 @@
 import React from 'react';
 import './contact-style.scss';
-import contentImage from './Contact-Jumping.svg';
+import contentImage from './Chat Bot.svg';
 
 export default class Contact extends React.PureComponent
 {

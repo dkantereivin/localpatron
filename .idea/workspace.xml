@@ -1,11 +1,40 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1a5fd151-4af6-4c52-874c-15f470ab5206" name="Default Changelist" comment="">
+    <list default="true" id="1a5fd151-4af6-4c52-874c-15f470ab5206" name="Default Changelist" comment="Minor changes">
+      <change afterPath="$PROJECT_DIR$/src/components/socials.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/socials_assets/linkedin.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/contact/Chat Bot.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/homepage/CoffeeDoodle.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/homepage/MessyDoodle.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/homepage/Thankyou.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/homepage/UnboxingDoodle.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/listing/vendor-list-style.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/listing/vendorList.component.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/listing/vendorList.types.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/login/blast-off.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/onboarding/stepone-style.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/onboarding/stepone.page.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/onboarding/steptwo-style.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/onboarding/steptwo.page.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dictionaries/david.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dictionaries/david.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Constants.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/Constants.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/navbar.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/navbar.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/about/About.page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/about/About.page.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/about/about-style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/about/about-style.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/contact/Contact.page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/contact/Contact.page.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/contact/contact-style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/contact/contact-style.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/contact/facebook.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/socials_assets/facebook.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/contact/instagram-sketched.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/socials_assets/insta.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/contact/twitter.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/socials_assets/twitter.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/homepage/home.page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/homepage/home.page.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/homepage/homepage-style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/homepage/homepage-style.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/login/Login.page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/login/Login.page.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/login/login-style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/login/login-style.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,10 +44,10 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="TypeScript File" />
         <option value="HTML File" />
-        <option value="TypeScript JSX File" />
+        <option value="TypeScript File" />
         <option value="SCSS File" />
+        <option value="TypeScript JSX File" />
       </list>
     </option>
   </component>
@@ -78,6 +107,20 @@
       <workItem from="1586899676274" duration="19261000" />
       <workItem from="1586957209436" duration="3842000" />
       <workItem from="1586980653158" duration="11695000" />
+      <workItem from="1587329539176" duration="2932000" />
+      <workItem from="1587362660544" duration="1136000" />
+      <workItem from="1587399599334" duration="483000" />
+      <workItem from="1587400230159" duration="5575000" />
+      <workItem from="1587420618984" duration="158000" />
+      <workItem from="1587420787107" duration="5458000" />
+      <workItem from="1587475451211" duration="6160000" />
+      <workItem from="1587515355855" duration="3068000" />
+      <workItem from="1587523928186" duration="6027000" />
+      <workItem from="1587565193213" duration="1698000" />
+      <workItem from="1587567772800" duration="362000" />
+      <workItem from="1587580285788" duration="598000" />
+      <workItem from="1587581398027" duration="6015000" />
+      <workItem from="1587681929671" duration="8767000" />
     </task>
     <task id="LOCAL-00001" summary="Added Responsive Navbar (MOBILE TODO), Contact Page, About Page, App and index. Routing configured.">
       <created>1586805783175</created>
@@ -95,7 +138,8 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Added Responsive Navbar (MOBILE TODO), Contact Page, About Page, App and index. Routing configured." />
-    <option name="LAST_COMMIT_MESSAGE" value="Added Responsive Navbar (MOBILE TODO), Contact Page, About Page, App and index. Routing configured." />
+    <MESSAGE value="Minor changes" />
+    <option name="LAST_COMMIT_MESSAGE" value="Minor changes" />
   </component>
   <component name="WindowStateProjectService">
     <state x="233" y="0" key="#SCSS" timestamp="1586733062914">
@@ -106,10 +150,14 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="233" y="0" key="#TypeScript/0.0.1280.680@0.0.1280.680" timestamp="1586732854462" />
-    <state x="240" y="0" key="CommitChangelistDialog2" timestamp="1586996413161">
+    <state x="321" y="77" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1587400242741">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="240" y="0" key="CommitChangelistDialog2/0.0.1280.680@0.0.1280.680" timestamp="1586996413161" />
+    <state x="321" y="77" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1280.680@0.0.1280.680" timestamp="1587400242741" />
+    <state x="240" y="0" key="CommitChangelistDialog2" timestamp="1587308188055">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="240" y="0" key="CommitChangelistDialog2/0.0.1280.680@0.0.1280.680" timestamp="1587308188055" />
     <state x="278" y="123" key="EditFileWatcherDialog" timestamp="1586732886831">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
@@ -130,18 +178,18 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state width="1259" height="147" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1586982259244" />
-    <state x="122" y="51" key="MergeDialog" timestamp="1586996344422">
+    <state x="122" y="51" key="MergeDialog" timestamp="1587308331748">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="122" y="51" key="MergeDialog/0.0.1280.680@0.0.1280.680" timestamp="1586996344422" />
-    <state x="345" y="55" key="MultipleFileMergeDialog" timestamp="1586996344430">
+    <state x="122" y="51" key="MergeDialog/0.0.1280.680@0.0.1280.680" timestamp="1587308331748" />
+    <state x="345" y="55" key="MultipleFileMergeDialog" timestamp="1587308331752">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="345" y="55" key="MultipleFileMergeDialog/0.0.1280.680@0.0.1280.680" timestamp="1586996344430" />
-    <state x="142" y="0" key="SettingsEditor" timestamp="1586899665549">
+    <state x="345" y="55" key="MultipleFileMergeDialog/0.0.1280.680@0.0.1280.680" timestamp="1587308331752" />
+    <state x="142" y="0" key="SettingsEditor" timestamp="1587420777054">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="142" y="0" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1586899665549" />
+    <state x="142" y="0" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1587420777054" />
     <state x="390" y="77" key="VCS.ChangeListViewerDialog" timestamp="1587308151132">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
@@ -162,9 +210,21 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="93" y="93" width="1095" height="495" key="dock-window-2/0.0.1280.680@0.0.1280.680" timestamp="1586919622380" />
-    <state x="297" y="151" key="run.anything.popup" timestamp="1586983164468">
+    <state x="326" y="76" width="629" height="528" key="find.popup" timestamp="1587696832068">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="297" y="151" key="run.anything.popup/0.0.1280.680@0.0.1280.680" timestamp="1586983164468" />
+    <state x="326" y="76" width="629" height="528" key="find.popup/0.0.1280.680@0.0.1280.680" timestamp="1587696832068" />
+    <state x="362" y="128" key="git4idea.merge.GitPullDialog" timestamp="1587308245336">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="362" y="128" key="git4idea.merge.GitPullDialog/0.0.1280.680@0.0.1280.680" timestamp="1587308245336" />
+    <state x="297" y="151" key="run.anything.popup" timestamp="1587516922774">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="297" y="151" key="run.anything.popup/0.0.1280.680@0.0.1280.680" timestamp="1587516922774" />
+    <state x="303" y="1" width="672" height="678" key="search.everywhere.popup" timestamp="1587481189551">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="303" y="1" width="672" height="678" key="search.everywhere.popup/0.0.1280.680@0.0.1280.680" timestamp="1587481189551" />
   </component>
 </project>

@@ -7,6 +7,7 @@ import Contact from './pages/contact/contact.page';
 import Home from './pages/homepage/home.page';
 import './App.scss';
 import Onboarding from './pages/Onboarding.flow';
+import {VendorList, VendorListContainer} from "./pages/listing/vendorList.component";
 
 type GlobalState = {}
 
@@ -62,8 +63,10 @@ class App extends React.PureComponent<any, GlobalState>
                                    render={(props) => <Onboarding {...props} setBrowserLocation={() => this.promptLocation}
                                                                              browserLocation={this.browserLocation as Position} />}
                             />
+                            <Route path='/vendors'>
+                                <VendorListContainer/>
+                            </Route>
                         </Switch>
-                    {/*</div>*/}
                 </BrowserRouter>
             </div>
         );
